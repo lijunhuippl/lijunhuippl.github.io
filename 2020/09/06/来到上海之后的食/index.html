@@ -2,9 +2,9 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
-  <title>Hexo Error 总结 | Egoist</title>
-  <meta name="keywords" content=" Hexo Error ">
-  <meta name="description" content="Hexo Error 总结 | Egoist">
+  <title>来到上海之后的食 | Egoist</title>
+  <meta name="keywords" content=" 日记 ">
+  <meta name="description" content="来到上海之后的食 | Egoist">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="article">
@@ -281,25 +281,31 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-Hexo-Error-总结" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-来到上海之后的食" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">Hexo Error 总结</h1>
+        <h1 class="article-title">来到上海之后的食</h1>
     
     <div class="article-meta">
         
         
         
+        <span class="book">
+            
+                <a href="javascript:" data-rel="日记">日记</a>
+            
+        </span>
+        
         
         <span class="tag">
             
-            <a href="javascript:" class="color1">Hexo Error</a>
+            <a href="javascript:" class="color3">日记</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2019-09-01 15:58:50'>2019-09-01 15:34</time>
+        创建时间:<time class="date" title='更新时间: 2020-09-06 19:22:40'>2020-09-06 18:36</time>
         
     </div>
     <div class="article-meta">
@@ -332,7 +338,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Eslint-none-is-installed"><span class="toc-text">Eslint-none is installed</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#There-isn’t-a-Github-Pages-site-here"><span class="toc-text">There isn’t a Github Pages site here</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#git-Please-tell-me-who-you-are解决方法"><span class="toc-text">git Please tell me who you are解决方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#“warning：-LF-will-be-replaced-by-CRLF”的去除方法"><span class="toc-text">“warning： LF will be replaced by CRLF”的去除方法</span></a></li></ol>
+        
     
 <style>
     .left-col .switch-btn,
@@ -347,20 +353,11 @@
 </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Eslint-none-is-installed"><a href="#Eslint-none-is-installed" class="headerlink" title="Eslint-none is installed"></a>Eslint-none is installed</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">babel-eslint@10.0.1 requires a peer of eslint@&gt;= 4.12.1 but none is</span><br><span class="line">installed. You must install peer dependencies yourself.</span><br></pre></td></tr></table></figure>
-
-<p>运行 npm install hexo-deployer-git –save 时，出现的错误<br>解决方案</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install eslint@4.x babel-eslint@8 --save-dev</span><br></pre></td></tr></table></figure>
-
-<h2 id="There-isn’t-a-Github-Pages-site-here"><a href="#There-isn’t-a-Github-Pages-site-here" class="headerlink" title="There isn’t a Github Pages site here"></a>There isn’t a Github Pages site here</h2><p>解决方案：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">建立一个CNAME文件,没有后缀，在里面写上域名地址如:qizhenming.com,然后放进hexo/<span class="built_in">source</span>/里</span><br></pre></td></tr></table></figure>
-
-<h2 id="git-Please-tell-me-who-you-are解决方法"><a href="#git-Please-tell-me-who-you-are解决方法" class="headerlink" title="git Please tell me who you are解决方法"></a>git Please tell me who you are解决方法</h2><p>这一步折腾了半天，就是因为 双引号前面没有空格，也不报错。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">你在命令行中执行</span><br><span class="line">git config --global user.email <span class="string">"你的邮箱"</span></span><br><span class="line">git config --global user.name <span class="string">"你的名字"</span></span><br><span class="line">（注意 “ 前面是有空格的）</span><br></pre></td></tr></table></figure>
-
-<h2 id="“warning：-LF-will-be-replaced-by-CRLF”的去除方法"><a href="#“warning：-LF-will-be-replaced-by-CRLF”的去除方法" class="headerlink" title="“warning： LF will be replaced by CRLF”的去除方法"></a>“warning： LF will be replaced by CRLF”的去除方法</h2><p>可以不理会，只是看着不舒服。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global core.autocrlf <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
+        <blockquote>
+<p>今天说说我来到这之后的饮食吧</p>
+</blockquote>
+<hr>
+<p>　　本来今天应该是跟朋友出去玩的,但是约来约去,没成,且时间也过2点,也就算了.目前是刚吃完晚饭—麻辣烫,反正也不可能学习就来写写日记吧.<br><img src="https://s1.ax1x.com/2020/09/06/we7xm9.jpg" alt="今天的麻辣烫"><br>　　味道很不错,来到上海发现就是这里的重辣是刚刚好合我的胃口,来之前我在延吉可是几乎天天各种辛辣饮食,麻辣香锅是常态,麻辣炒面,麻辣炒饭,麻辣鸡翅,麻辣炸串等等.因此我弟弟时常闹肚子哈哈,像麻辣香锅,他已经属于吃吐了,我一求再求也只能大概一周吃一次.<br>然后就是价格,大部分还是差不多的,当然量上会有些差距,我晒俩这两天订的外卖吧.<br><img src="https://s1.ax1x.com/2020/09/06/weqVII.jpg" alt="昨天的麻辣烫"><br><img src="https://s1.ax1x.com/2020/09/06/weqtJ0.jpg" alt="订单1"><br><img src="https://s1.ax1x.com/2020/09/06/weqNWV.jpg" alt="订单2"><br>　　这些价格都得再加3块左右的优惠券的费用,毕竟送的优惠券就几张,剩下的全都是5折买的.整体来看会比延吉贵上4块5块,也有差不多的,这的外卖还是30左右才是普遍价格.<br>　　由于我现在是一天两顿,一天饮食消费在50块左右,毕竟还得减减肥不是,我来的时候可是由于半年多胡吃海喝,体重89公斤.现在想运动也费尽,起码嘴得管住吧,毕竟现在也是一个人了,只要管好我自己就行了.这么一算,我住的费用是75左右.也就是说目前消费一天是125块.一个月就是3750块,艹!好贵,我这钱也就够2月了.找工作也是件烦心的事.<br>　　还是说回饮食吧.这没炸串,没啥烤鸡翅,炸鸡倒是挺多,我还看到在延吉的一家炸鸡店,价格也差不多好像.烤串肯定也比不上延吉,更比不上珲春的知名的像北街串店了.不过延吉的签善的串还是不错的.丰茂是个垃圾,河坝串店又贵了些.<br>　　刚好由于健身养成的习惯，轻食一类，我还是很吃得惯的．且对营养学，人体所需营养啥的也有较深的理解．除了偶尔很想吃顿辣的食物，其他时候我都能控制住我的嘴．啊，对了，我以前想过来这之后一天三顿吃赛百味的，不过发现以国内这外卖行情来看，赛百味是贵了，如果卖20块钱，我真的可以吃到它倒闭或者我死．可惜卖30块,按韩币来算也是5000了,虽然我记得韩国的赛百味6000,好像也有5000的.反正目前我是吃不起的.跟赛百味一比较,轻食一类可太有性价比了,既营养又实惠.虽然我还是看到我点的一家轻食里,主食太少,全是蔬菜和一些肉,这是不行滴啊商家,虽然会有很多女人会吃这种沙拉用来减肥,但是按营养学来说,人体是非常需要主食的能量的,没有主食就得用脂肪来供能,但是很明显,沙拉里是不可能有多少脂肪的,更何况是吃够.而且女人身体太弱,还不能轻易的靠脂肪来代替主食.所以这种沙拉用来当饭吃是万万不能的,除非买家在其他时间有补充足够的主食,很可惜,按普通人的理念来讲,可不会管这种东西,死命的节食,最后坏的是自己的身子.搞不好回头愤怒为什么商家卖这种沙拉当减肥餐,然后就导致没有回头客或者被差评,唉,我为了商家的生意也是费尽了脑细胞啊<del>~</del><br>　　也没啥事,就是上来发发牢骚,昨天和今天也没咋学习,昨天好歹看了点,今天可是一点没看.晚上这里wifi又不好,惨!<br>　　题外话,我上面的java计划是真的不错,如果我没回家,在韩国继续待着,估计我学的应该挺不错了,回家后是真的人会变懒,再加上为了弟弟想了好多乱七八糟的事情,导致我真的无法集中去搞什么东西,当然可以说,明明弟弟早上6点半就上学了,晚上7点才来.白天这么一堆时间呢,干啥了?早上当然得补觉,因为晚上我都是11点多才睡,早上5点起来,上午一补觉起来就是11点左右了,吃个午饭吧,下午健个身吧,然后就剩了3,4个小时,别说之前我晚饭还是自己动手做的.得亏后面我换成了外卖外卖外卖,不然时间更少,这么零零碎碎的时间,做起事情来很是麻烦,不像现在,我可以一直看几个小时,然后预定个外卖,到点就出去吃,吃完回来可以继续看,没有任何额外的事情干扰我,除了我自己忍不住刷一刷视频,新闻,动漫之类的.当然来了一周我也就看完了数据库而已.希望下周spring看完一半就开始投简历吧,唉,路还是得自己走,之前倒是太顺风顺水了,混着混着都硕士毕业了.</p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com </span>
@@ -374,12 +371,12 @@
 
 
 <div class="article_copyright">
-    <p><span class="copy-title">文章标题:</span>Hexo Error 总结</p>
+    <p><span class="copy-title">文章标题:</span>来到上海之后的食</p>
     
     <p><span class="copy-title">本文作者:</span><a href="javascript:void(0)" title="John Doe">John Doe</a></p>
-    <p><span class="copy-title">发布时间:</span>2019-09-01, 15:34:02</p>
-    <p><span class="copy-title">最后更新:</span>2019-09-01, 15:58:50</p>
-    <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/09/01/Hexo-Error-总结/" title="Hexo Error 总结">http://yoursite.com/2019/09/01/Hexo-Error-总结/</a>
+    <p><span class="copy-title">发布时间:</span>2020-09-06, 18:36:44</p>
+    <p><span class="copy-title">最后更新:</span>2020-09-06, 19:22:40</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/09/06/来到上海之后的食/" title="来到上海之后的食">http://yoursite.com/2020/09/06/来到上海之后的食/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
     </p>
